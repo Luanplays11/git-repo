@@ -57,28 +57,32 @@ header{
 }
 
 .profile{
-    justify-content: flex-end;
+    display: flex;
+}
+.profile h2{
+    margin-top:10%
 }
 .profile2{
-    display: flex;
-    justify-content: space-between;
-}
-.profile img{
-   
-}
-nav{
-    display: none;
+    padding-left: 10px;
 }
 
-ul li{
+
+button{
+    background-color: var(--color-dark-variant);
+    border-radius: 10%;
+}
+button:hover{
+    background: var(--color-info-dark);
+}
+
+#dashboard li:hover{
+    background: var(--color-info-dark);
+    transform: translate(10px, 0);
+    margin-right: 0px;
     border-radius: 10%;
 }
 
-ul li:hover nav{
-    display: flex;
-}
-nav ul li:hover{
-    background: var(--color-info-dark);
-    transform: translate(10px, 0);
+#dashboard{
+    display: none;
 }
 
