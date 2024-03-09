@@ -7,6 +7,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="index.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+    apiKey: "AIzaSyB-xp8Wytm_CEA-e5HkBnIhfbAIO3_C21s",
+    authDomain: "imagens-site-bdac9.firebaseapp.com",
+    databaseURL: "https://imagens-site-bdac9-default-rtdb.firebaseio.com",
+    projectId: "imagens-site-bdac9",
+    storageBucket: "imagens-site-bdac9.appspot.com",
+    messagingSenderId: "744573924578",
+    appId: "1:744573924578:web:199236d039855320d71abb",
+    measurementId: "G-RB84LS1Z5X"
+  };
+  firebase.initializeApp(firebaseConfig);
+    </script>
 </head>
 <body>
         <header>
@@ -15,7 +30,7 @@
             <button onclick="toggle()"><i  class="material-symbols-outlined">menu</i></button>
             
             <div class="profile">
-                    <h2 class="name">LuanS</h2>
+                    <h2 class="name">Luan</h2>
                     <div class="profile2">
                     <img  width="50px" height="50px" src="avataricon.jpg" alt="">
                 </div>
